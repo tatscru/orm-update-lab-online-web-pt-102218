@@ -11,7 +11,9 @@ class Student
     @id = id 
   end 
   
-  def self.create_table(name, grade, id) 
+  def self.create_table
+    sql = <<-SQL
+      SELECT 
     
   end 
   
