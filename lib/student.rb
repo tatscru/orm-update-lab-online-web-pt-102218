@@ -63,6 +63,7 @@ class Student
     sql = <<-SQL
       SELECT * FROM students 
         WHERE name = ?
+      SQL
   end 
   
   def update
