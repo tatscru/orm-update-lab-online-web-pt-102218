@@ -64,7 +64,8 @@ class Student
       SELECT * FROM students 
         WHERE name = ?
     SQL
-      
+    
+    
       
   end 
   
