@@ -12,6 +12,8 @@ class Student
   end 
   
   def self.create_table 
+    new_student = Student.new(name, grade)
+    
   end 
   
   def self.drop_table 
