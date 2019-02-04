@@ -53,10 +53,10 @@ class Student
   
   def self.new_from_db
     student = self.new( 
-     row[0]
      row[1]
      row[2]
-    new_student
+     row[0]
+    student
   end 
   
   def update
