@@ -12,7 +12,7 @@ class Student
   end 
   
   def self.create_table 
-    new_student = Student.new(name, grade)
+    new_student = self.new(name, grade)
     
   end 
   
