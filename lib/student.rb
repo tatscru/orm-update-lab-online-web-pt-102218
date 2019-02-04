@@ -13,7 +13,7 @@ class Student
   
   def self.create_table 
     new_student = self.new 
-    
+    new_student.id = 
     
   end 
   
