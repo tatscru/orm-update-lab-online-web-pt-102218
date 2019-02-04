@@ -11,7 +11,7 @@ class Student
     @id = id 
   end 
   
-  def self.create_table 
+  def self.create_table(name, grade, id) 
     new_student = self.new 
     new_student.id = row[0]
     new_student.name = row [1]
