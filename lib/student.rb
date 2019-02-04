@@ -20,6 +20,7 @@ class Student
   end 
   
   def self.drop_table 
+    DROP TABLE new_student
   end 
   
   
