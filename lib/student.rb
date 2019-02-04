@@ -32,7 +32,8 @@ class Student
   
   
   def self.save
-    
+    sql = <<-SQL
+      INSERT name, grade 
   end 
   
   def self.create
